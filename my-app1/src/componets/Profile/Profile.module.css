@@ -1,0 +1,30 @@
+/* .content {
+    grid-area: content;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      'hero hero'
+      'avatar description'
+      'd d'
+      'e e'
+      'f f';
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 4fr 2fr 1fr 1fr 1fr;
+    background: rgba(221, 233, 219, 0.9);
+  } */
+
+  
+  
+  
+
+  .titlePost {
+    /* grid-area: d; */
+  }
+  
+  .newPost {
+    /* grid-area: e; */
+  }
+  
+  .postShow {
+    /* grid-area: f; */
+  }

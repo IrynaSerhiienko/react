@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.avatarHolder {
+  width: 10%;
+}
+
+.newPost {
+  width: 90%;
+}
+
+.avatarHolder {
+  border-radius: 50px;
+  width: 70px;
+
+  &.avatar {
+    width: 100%;
+  }
+}
+
+.like {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,37 @@
+.profileInfoHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentHolder {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.heroHolder {
+  width: 100%;
+  background-image: url(./hero.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.avatarHolder {
+  width: 20%;
+}
+
+.avatarHolder .avatar {
+  width: 100%;
+}
+
+.avatarDescription {
+  width: 90%;
+}
+
+/* img {
+  margin: 0 auto;
+  display: block;
+  width: 1000px;
+} */

@@ -7,10 +7,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from './redux/state'
 
+const basename = process.env.PUBLIC_URL;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={basename}>
     <React.StrictMode>
       <App state={state}/>
     </React.StrictMode>

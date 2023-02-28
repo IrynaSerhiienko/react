@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <script>
+      const url = window.location.href.replace(/\/404\.html$/,'/')
+      window.location.replace(url)
+    </script>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -10,4 +23,4 @@
       window.location.replace(redirectUrl);
     </script>
   </body>
-</html>
+</html> -->

@@ -14,23 +14,24 @@ const baseUrl = document.baseURI.substring(
 );
 const currentUrl = window.location.href;
 let appUrl = publicUrl;
+let r = '/react';
 
-if (currentUrl.startsWith(baseUrl + '/profile')) {
+if (currentUrl.startsWith(baseUrl + r + '/profile')) {
   appUrl = publicUrl + '/profile';
 }
-if (currentUrl.startsWith(baseUrl + '/dialogs')) {
+if (currentUrl.startsWith(baseUrl + r + '/dialogs')) {
   appUrl = publicUrl + '/dialogs';
 }
-if (currentUrl.startsWith(baseUrl + '/news')) {
+if (currentUrl.startsWith(baseUrl + r + '/news')) {
   appUrl = publicUrl + '/news';
 }
-if (currentUrl.startsWith(baseUrl + '/music')) {
+if (currentUrl.startsWith(baseUrl + r +'/music')) {
   appUrl = publicUrl + '/music';
 }
-if (currentUrl.startsWith(baseUrl + '/settings')) {
+if (currentUrl.startsWith(baseUrl + r +'/settings')) {
   appUrl = publicUrl + '/settings';
 }
-if (currentUrl.startsWith(baseUrl + '/fetch')) {
+if (currentUrl.startsWith(baseUrl + r +'/fetch')) {
   appUrl = publicUrl + '/fetch';
 }
 
